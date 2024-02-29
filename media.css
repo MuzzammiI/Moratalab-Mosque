@@ -1,0 +1,54 @@
+@media screen and (min-width: 0px) and (max-width: 667px) {
+  .donation-box1,
+  .donation-box2,
+  .first-slide {
+    width: 100%;
+  }
+  .donation-col1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .col1 img {
+    width: calc(100%);
+  }
+  .mosque-people h5 {
+    font-size: 1rem;
+  }
+
+  .first-slide h5 {
+    display: flex;
+    align-items: center;
+    margin: 0 -3rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .first-slide h5 span {
+    font-size: 1.5rem;
+  }
+  .gallery-title h1{
+    font-size: 2rem;
+  }
+  .donation-part p,.donation-part a{
+    font-size: 0.7rem;
+  }
+  .col1,.col2,.col1 video{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .donation-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .col1 img,.col2 img{
+    width: calc(100%/1);
+  }
+}
